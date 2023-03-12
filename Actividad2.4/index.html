@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Usuario</h1>
+    <form action="#" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre: </label>
+                <input required type="text" id="name" name="user_name"> 
+            </li>
+            <br>
+            <li>
+                <label for="mail">Correo Electronico: </label>
+                <input required type="email" id="mail" name="user_mail"> 
+            </li>
+            <br>
+            <li>
+                <label for="pass">Contraseña: </label>
+                <input required minlength="8" title="Se necesita que contenga almenos una letra Minuscula , una Mayuscula y un Numero , con un minimo de 8 caracteres" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])" type="password" id="pass" name="user_pass"> 
+            </li>
+            <br>
+            <li>
+                <label for="pass">Confirmar Contraseña: </label>
+                <input required type="password" id="pass" name="user_pass"> 
+            </li>
+            <br>
+            <li>
+                <label for="country">Pais: </label>
+                <select id="country" name="user_country">
+                    <option value="Chile">
+                        Chile
+                    </option>
+                    <option value="Argentina">
+                        Argentina
+                    </option>
+                    <option value="Peru">
+                        Peru
+                    </option>
+                    <option value="Venezuela">
+                        Venezuela
+                    </option>
+                </select>
+            </li>
+            <br>
+            <li>
+                <fieldset>
+                    <legend>Fecha de Nacimiento</legend>
+                    <select id="Dia" name="Dia_user">
+                        <option>
+                            1
+                        </option>
+                        <option>
+                            2
+                        </option>
+                        <option>
+                            3
+                        </option>
+                        <option>
+                            4
+                        </option>
+                        <option>
+                            5
+                        </option>
+                        <option>
+                            6
+                        </option>
+                        <option>
+                            7
+                        </option>
+                        <option>
+                            8
+                        </option>
+                        <option>
+                            9
+                        </option>
+                        <option>
+                            10
+                        </option>
+                        <option>
+                            11
+                        </option>
+                        <option>
+                            12
+                        </option>
+                        <option>
+                            13
+                        </option>
+                        <option>
+                            14
+                        </option>
+                        <option>
+                            15
+                        </option>
+                        <option>
+                            16
+                        </option>
+                        <option>
+                            17
+                        </option>
+                        <option>
+                            18
+                        </option>
+                        <option>
+                            19
+                        </option>
+                        <option>
+                            20
+                        </option>
+                        <option>
+                            21
+                        </option>
+                        <option>
+                            22
+                        </option>
+                        <option>
+                            23
+                        </option>
+                        <option>
+                            24
+                        </option>
+                        <option>
+                            25
+                        </option>
+                        <option>
+                            26
+                        </option>
+                        <option>
+                            27
+                        </option>
+                        <option>
+                            28
+                        </option>
+                        <option>
+                            29
+                        </option>
+                        <option>
+                            30
+                        </option>
+                        <option>
+                            31
+                        </option>
+                    </select>
+                    <select id="Mes" name="Mes_user">
+                        <option>
+                            1
+                        </option>
+                        <option>
+                            2
+                        </option>
+                        <option>
+                            3
+                        </option>
+                        <option>
+                            4
+                        </option>
+                        <option>
+                            5
+                        </option>
+                        <option>
+                            6
+                        </option>
+                        <option>
+                            7
+                        </option>
+                        <option>
+                            8
+                        </option>
+                        <option>
+                            9
+                        </option>
+                        <option>
+                            10
+                        </option>
+                        <option>
+                            11
+                        </option>
+                        <option>
+                            12
+                        </option>
+                    </select>
+                    <select id="Año" name="Año_user">
+                        <option>
+                            2000
+                        </option>
+                        <option>
+                            2001
+                        </option>
+                        <option>
+                            2002
+                        </option>
+                        <option>
+                            2003
+                        </option>
+                        <option>
+                            2004
+                        </option>
+                        <option>
+                            2005
+                        </option>
+                        <option>
+                            2006
+                        </option>
+                        <option>
+                            2007
+                        </option>
+                        <option>
+                            2008
+                        </option>
+                        <option>
+                            2009
+                        </option>
+                        <option>
+                            2010
+                        </option>
+                        <option>
+                            2011
+                        </option>
+                    </select>
+
+                </fieldset>
+               
+            </li>
+            <br>
+            <li > 
+                    <label for="gender">Genero:</label>
+
+                        <label for="gender1">Hombre </label>
+                        <input required type="radio" id="gender1" name="user_gender">                 
+                        
+                        <label for="gender1">Mujer </label>
+                        <input required type="radio" id="gender1" name="user_gender"> 
+                
+                        <label for="gender1">Otro </label>
+                        <input required type="radio" id="gender1" name="user_gender"> 
+            </li>
+            <br>
+            <li>
+                <label for="check">Acepto terminos y condiciones</labeßl>
+                <input required type="checkbox" id="check" name="user_check"> 
+            </li>
+            <li>
+                <button type="submit">Enviar datos</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
