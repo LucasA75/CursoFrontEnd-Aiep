@@ -1,2 +1,3 @@
 # CursoFrontEnd-Aiep
-<h1>Este es el archivo Readme que viene por defecto<h1>
+## Actividades del Curso de Front-end
+<p>En este curso se vio los fundamentos de HTML y CSS</p>
