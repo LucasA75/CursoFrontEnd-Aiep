@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.nav__header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav__a a{
+    margin-right: 20px;
+}
+.Main__class{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.row{
+    background-color: azure;
+    width: 50vw;
+    height: 50vh;
+}
