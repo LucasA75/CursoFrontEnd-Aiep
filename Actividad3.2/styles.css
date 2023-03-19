@@ -1,8 +1,18 @@
 body{
     width: 100vw;
-    font-family: "Montserrat",sans-serif!important; ;
+    font-family: "Montserrat", sans-serif;
 }
 
+.Center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
 header h1{
     color: #224291;
     font-weight: bold;
@@ -10,41 +20,81 @@ header h1{
 }
 
 header img{
-    border: 1px black solid;
-}
-.Center-column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    transform: translateX(50%);
+    width: fit-content;
+    height: fit-content;
 }
 
+.header__div{
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid #cbcbcb;
+}
+
+.border-image{
+    width: fit-content;
+    padding: 1px;
+    border: 1px solid #cbcbcb;
+}
+
+/* MAIN */
 .Span__vegetales{
     font-weight: bold;
     color: #21408c;
 }
 
+main section li{
+    color: #687eb2;
+}
+
+main section li span{
+    color: black;
+}
+
+h3{
+    color: #224baf;
+    margin: 10px;
+}
+
+/* TABLE */
 table{
     border-collapse: collapse;
+    table-layout:fixed ;
 }
 
 .thead__tr{
-    background-color: #21408c;
-    height: 40px;
+    background-color: #224baf;
+    height: 60px;
 }
 
 .thead__tr th{
     color: white;
+    border-right: #224baf 2px solid;
+    width: fit-content;
 }
 
 .first__row{
     color: #0074d9;
     background-color: #c6d0e5;
     border-top: 1px solid #d9dfeb;
+    padding: 10px 15px;
+    text-align: left;
+    
 }
 
 tbody td{
-    border: #224291 1px solid;
+    border-bottom: 1px solid #d9dfeb;
+    border-left: 1px solid #d9dfeb;;
+    text-align: center;
+    padding: 10px 6px;
+    height: 20px;
+    width: 80px;
 }
+
+/* Footer */
+ footer p span{
+    font-weight: bold;
+ }
+
+ footer p {
+    padding-bottom: 10px;
+ }
