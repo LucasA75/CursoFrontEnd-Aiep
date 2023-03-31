@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />    
+    <title>Layout 07 - CSS Grid</title>
+    <style>
+        header, nav, article, aside, footer {background-color: rgb(122, 204, 75);}
+        body { margin: 0; padding: 0;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 3fr 1fr 1fr;
+        min-height: 100vh;
+        }
+        
+        header{
+            grid-area: 1/2/1/3;
+        }
+        nav{
+            grid-row: 4 span;
+        }    
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Nav</nav>
+    <article>Article</article>
+    <aside>Aside</aside>
+    <footer>Footer</footer>
+</body>
+</html>
