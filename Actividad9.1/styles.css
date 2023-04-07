@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+}
+
+.input_form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input_form span{
+    position: absolute;
+    width: 100vw;
+    bottom: -20px;
+  
+}
+
+.animateVerde {
+    animation-name: Verde;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    border: 1px solid black;
+  }
+
+
+@keyframes Verde {
+    0% {
+        border: 1px solid green;
+        box-shadow: 10px 10px 58px 0px rgba(0,0,0,0);
+      }
+      50% {
+        border: 1px solid green;
+        box-shadow: 10px 10px 58px 0px rgba(0,255,85,1);
+      }
+      100% {
+        border: 1px solid green;
+        box-shadow: 10px 10px 58px 0px rgba(0,0,0,0);
+      }
+    }
+
+
